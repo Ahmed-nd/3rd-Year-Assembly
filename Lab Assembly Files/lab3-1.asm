@@ -72,8 +72,9 @@ COMMENT!7
 It`s your turn now
 Write an assembly program that adds three numbers 100,400,400
 !
-
-
+mov al , 100       
+add al , 400       
+add al , 400 
 ret
 
 
