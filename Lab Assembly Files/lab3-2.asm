@@ -76,9 +76,9 @@ take the value  of "Welcome" and then put the character
 
 JMP EXIT
 Main ENDP
-
-                       
-  
+greeting1 db "Welcome" , 0 
+mov al , "c"                       
+mov cl , "m"   
 
 EXIT: ret  
 
